@@ -446,12 +446,12 @@ export default {
 	&.active {
 		background-color: var(--color-primary-light) !important;
 	}
-	&:focus,
+	&:focus-within,
 	&:hover {
 		background-color: var(--color-background-hover);
 	}
 	&.active,
-	&:focus,
+	&:focus-within,
 	&:hover {
 		.app-navigation-entry__children {
 			background-color: var(--color-main-background);
